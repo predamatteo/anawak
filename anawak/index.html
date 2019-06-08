@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HAWKEYE INFORMATICS</title>
+        <link rel="stylesheet" href="main.css">
+        <!-- JQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <!-- Greensock(TweenMax) CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        <!-- fontawesome CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <!-- bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <header>
+          <div class="content">
+                <h1>HAWKEYE INFORMATICS</h1>
+          </div>
+
+          <div class="menu-overlay">
+                <div class="block b1"></div>
+                <div class="block b2"></div>
+                <div class="block b3"></div>
+                <div class="block b4"></div>
+          </div>
+
+          <div class="strips">
+                <div class="strip one"></div>
+                <div class="strip two"></div>
+                <div class="strip three"></div>
+          </div>
+
+          <div class="menu">
+                <ul>
+                      <li>Home</li>
+                      <a href="#story"><li>Our Story</li></a>
+                      <a href="#work"><li>Work</li></a>
+                      <a href="#contact"><li>Contact</li></a>
+                </ul>
+          </div>
+
+          <div class="menu-btn">
+                <i class="fas fa-grip-lines"></i>
+          </div>
+        </header>
+        <div class="megaBox">
+          <div class="container">
+            <div id="story">
+              <div class="row">
+                <div class="col-md-7">
+                    <p>
+                      <div class="titleDivStory">
+                        <h2>Our Story</h2>
+                      </div>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                  <div class="col-md-5 image">
+                    <img src="img/project.jpeg">
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div id="work">
+                <div class="row">
+                  <div class="col-md-5 image">
+                    <img src="img/work.jpeg">
+                  </div>
+                  <div class="col-md-7">
+                    <p>
+                      <div class="titleDivWork">
+                        <h2>Our Work</h2>
+                      </div>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+              </div>
+            </div>
+            <hr>
+            <div id="contact">
+                <form  method="GET" action="mailto:test@example.com" enctype="text/plain">
+                      <div class="titleDivStory">
+                        <h2>Contact</h2>
+                      </div>
+                      <div>Subject</div>
+                      <input type="text" name="subject">
+
+                      <div>Name</div>
+                      <input name="Name">
+
+                      <div>E-Mail</div>
+                      <input name="E-Mail Address">
+
+                      <div>Message</div>
+                      <textarea name="Message"></textarea>
+
+                      <br>
+                    <input type="submit" value="Send">
+
+                    <input type="hidden" name="body">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer style="text-align:center">
+          <p class="footerP">© 2019 Anawak. Design by <a href="http://hawkeyeinformatics.altervista.org/" target="_blank">Hawkeye Informatics</a></p>
+        </footer>
+        <script type="text/javascript">
+              var t1 = new TimelineMax({paused : true});
+
+              t1.to(".block", 1.2, {
+                    width: "25%",
+                    ease: Power4.easeInOut
+              });
+
+              t1.staggerFrom(".menu ul li", 0.8, {y: 40, opacity: 0, ease: Power2.easeOut}, 0.2);
+
+              t1.reverse();
+              $(document).on("click", ".menu-btn", function() {
+                    t1.reversed(!t1.reversed());
+              });
+        </script>
+        <script type="text/javascript">
+           var form = document.getElementsByTagName('form')[0];
+           form.addEventListener('submit',contact,false);
+           function contact(e) {
+              // Prevent Default Form Submission
+              e.preventDefault();
+
+              var target = e.target || e.srcElement;
+              var i = 0;
+              var message = '';
+
+              // Loop Through All Input Fields
+              for(i = 0; i < target.length; ++i) {
+                 // Check to make sure it's a value. Don't need to include Buttons
+                 if(target[i].type != 'text' && target[i].type != 'textarea') {
+                        // Skip to next input since this one doesn't match our rules
+                    continue;
+                 }
+
+                 // Add Input Name and value followed by a line break
+                 message += target[i].name + ': ' + target[i].value + "\r\n";
+              }
+              // Modify the hidden body input field that is required for the mailto: scheme
+              target.elements["body"].value = message;
+
+              // Submit the form since we previously stopped it. May cause recursive loop in some browsers? Should research this.
+              this.submit();
+           }
+    </script>
+  </body>
+</html>
